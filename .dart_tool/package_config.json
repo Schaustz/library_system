@@ -1,0 +1,14 @@
+{
+  "configVersion": 2,
+  "packages": [
+    {
+      "name": "sistema_biblioteca_dart",
+      "rootUri": "../",
+      "packageUri": "lib/",
+      "languageVersion": "2.18"
+    }
+  ],
+  "generator": "pub",
+  "generatorVersion": "3.9.3",
+  "pubCache": "file:///C:/Users/Schaustz/AppData/Local/Pub/Cache"
+}
