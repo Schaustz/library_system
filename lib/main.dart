@@ -6,6 +6,7 @@ void main() {
 
   while (true) {
     print('\n=== Menu Biblioteca ===');
+    print('0. Ajuda.');
     print('1. Listar acervo');
     print('2. Cadastrar livro');
     print('3. Cadastrar revista');
@@ -18,6 +19,38 @@ void main() {
     String? escolha = stdin.readLineSync();
 
     switch (escolha) {
+      case '0':
+        print('=== Guia Rápido: Menu da Biblioteca ===\n');
+        print('1. Ajuda (Opção 0):');
+        print(
+            '   Exibe este guia com explicações sobre o que cada opção do menu faz.\n');
+
+        print('2. Listar Acervo (Opção 1):');
+        print(
+            '   Mostra todos os livros e revistas disponíveis no acervo da biblioteca.\n');
+
+        print('3. Cadastrar Livro (Opção 2):');
+        print('   Permite adicionar um novo livro ao acervo da biblioteca.\n');
+
+        print('4. Cadastrar Revista (Opção 3):');
+        print(
+            '   Permite adicionar uma nova revista ao acervo da biblioteca.\n');
+
+        print('5. Emprestar Produto (Opção 4):');
+        print('   Permite emprestar um livro ou revista para um usuário.\n');
+
+        print('6. Listar Produtos Emprestados (Opção 5):');
+        print(
+            '   Exibe a lista de livros e revistas que estão atualmente emprestados.\n');
+
+        print('7. Devolver Produto (Opção 6):');
+        print(
+            '   Permite que o usuário devolva um livro ou revista emprestada.\n');
+
+        print('8. Sair (Opção 7):');
+        print('   Encerra o sistema da biblioteca.\n');
+        break;
+
       case '1':
         biblioteca.listarAcervo();
         break;
